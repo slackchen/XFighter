@@ -1,0 +1,20 @@
+# Dependencies & Build Outputs
+node_modules/
+dist/
+.vite/
+
+# Logs & OS Artifacts
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Environment & Local Secrets
+.env
+.env.*
+
+# Python Caches & Debug Contact Sheets
+__pycache__/
+*.pyc
+raw_assets/debug_*.png
